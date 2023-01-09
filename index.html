@@ -14,7 +14,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="md:mx-9 mx-5">
     <!-- navbar start -->
     <div class="navbar bg-base-100">
         <div class="navbar-start mx-4">
@@ -51,9 +51,61 @@
                 </ul>
             </div>
             <a class="btn btn-primary btn-sm btn-outline mx-3 hidden md:flex">Register</a>
-
         </div>
     </div>
+    <!-- navbar end -->
+
+    <!-- slider start  -->
+    <div class=" carousel rounded-md">
+        <div id="slide-1" class="carousel-item relative w-full">
+            <img src="./images/cover/cover-1.png" class="w-full md:h-[400px] h-[260px] opacity-40" alt="" />
+            <div class="absolute inset-7 lg:inset-y-24 md:inset-y-20 lg:inset-x-48 md:inset-x-28 text-center">
+                <h1 class=" md:text-5xl text-2xl font-bold text-black">Get Started Digital
+                    Learning</h1>
+                <p class=" text-slate-700 md:my-5 my-3 md:text-base leading-tight md:leading-none">It is a long
+                    established fact that
+                    reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <button class="btn btn-primary btn-sm md:btn-md">Get Started</button>
+            </div>
+            <div class="hidden absolute md:flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide-3" class="btn btn-circle btn-outline">❮</a>
+                <a href="#slide-2" class="btn btn-circle btn-outline">❯</a>
+            </div>
+        </div>
+        <div id="slide-2" class="carousel-item relative w-full">
+            <img src="./images/cover/cover-2.jpg" class="w-full md:h-[400px] h-[260px] opacity-40" alt="" />
+            <div class="absolute inset-7 lg:inset-y-24 md:inset-y-20 lg:inset-x-48 md:inset-x-28 text-center">
+                <h1 class=" md:text-5xl text-2xl font-bold text-black">Get Started Digital
+                    Learning</h1>
+                <p class=" text-slate-700 md:my-5 my-3 md:text-base leading-tight md:leading-none">It is a long
+                    established fact that
+                    reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <button class="btn btn-primary btn-sm md:btn-md">Get Started</button>
+            </div>
+            <div class="hidden absolute md:flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide-1" class="btn btn-circle btn-outline">❮</a>
+                <a href="#slide-3" class="btn btn-circle btn-outline">❯</a>
+            </div>
+        </div>
+        <div id="slide-3" class="carousel-item relative w-full">
+            <img src="./images/cover/cover-3.jpg" class="w-full md:h-[400px] h-[260px] opacity-40" alt="" />
+            <div class="absolute inset-7 lg:inset-y-24 md:inset-y-20 lg:inset-x-48 md:inset-x-28 text-center">
+                <h1 class=" md:text-5xl text-2xl font-bold text-black">Get Started Digital
+                    Learning</h1>
+                <p class=" text-slate-700 md:my-5 my-3 md:text-base leading-tight md:leading-none">It is a long
+                    established fact that
+                    reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <button class="btn btn-primary btn-sm md:btn-md">Get Started</button>
+            </div>
+            <div class="hidden absolute md:flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide-2" class="btn btn-circle btn-outline">❮</a>
+                <a href="#slide-1" class="btn btn-circle btn-outline">❯</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- slider end -->
+
 </body>
 
 </html>
